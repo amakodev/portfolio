@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrin N Makombe — AI Automation Engineer &amp; Full-Stack Developer | Blockchain · AI · Linux Platform | CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    /* ============================================================
+       RESET & ROOT VARIABLES
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-deep:        #050810;
+      --bg-surface:     rgba(255,255,255,0.035);
+      --bg-surface-alt: rgba(255,255,255,0.055);
+      --border:         rgba(99,120,255,0.12);
+      --border-strong:  rgba(99,120,255,0.28);
+      --accent-blue:    #3b82f6;
+      --accent-violet:  #8b5cf6;
+      --accent-soft:    #a78bfa;
+      --text-primary:   #f1f5f9;
+      --text-secondary: #cbd5e1;
+      --text-muted:     #64748b;
+      --text-accent:    #93c5fd;
+      --grad-header:    linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+      --grad-name:      linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+      --radius:         12px;
+      --max-w:          860px;
+    }
+
+    /* ============================================================
+       BASE
+    ============================================================ */
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      line-height: 1.65;
+      font-size: 15px;
+    }
+
+    .page-wrapper {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 2rem 1.5rem 5rem;
+    }
+
+    /* ============================================================
+       TOOLBAR
+    ============================================================ */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .toolbar-note {
+      font-size: 0.73rem;
+      color: var(--text-muted);
+    }
+
+    .btn-pdf {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: var(--grad-header);
+      color: #fff;
+      border: none;
+      padding: 0.55rem 1.2rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.18s;
+    }
+    .btn-pdf:hover { opacity: 0.88; }
+
+    /* ============================================================
+       HEADER
+    ============================================================ */
+    .cv-header {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem 1.75rem;
+      margin-bottom: 1.1rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cv-header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--grad-header);
+    }
+
+    .cv-name {
+      font-size: 2.35rem;
+      font-weight: 800;
+      background: var(--grad-name);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+
+    .cv-title {
+      font-size: 0.97rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+      margin-bottom: 1.35rem;
+      letter-spacing: 0.01em;
+    }
+
+    .cv-contact {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 1.4rem;
+      row-gap: 0.4rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .contact-item a {
+      color: var(--text-accent);
+      text-decoration: none;
+    }
+    .contact-item a:hover { text-decoration: underline; }
+
+    .c-dot {
+      width: 5px; height: 5px;
+      background: var(--accent-blue);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       SECTIONS
+    ============================================================ */
+    .cv-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.65rem 2rem;
+      margin-bottom: 1.1rem;
+    }
+
+    .section-title {
+      font-size: 0.67rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--accent-blue);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ============================================================
+       SUMMARY
+    ============================================================ */
+    .summary-text {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    .summary-text strong { color: var(--text-primary); }
+
+    .summary-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+
+    .metric-pill {
+      background: rgba(59,130,246,0.09);
+      border: 1px solid rgba(59,130,246,0.22);
+      color: var(--text-accent);
+      padding: 0.25rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.73rem;
+      font-weight: 600;
+    }
+
+    /* ============================================================
+       SKILLS
+    ============================================================ */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem 1.5rem;
+    }
+
+    .skill-group h3 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-violet);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.45rem;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .s-tag {
+      background: rgba(139,92,246,0.07);
+      border: 1px solid rgba(139,92,246,0.16);
+      color: var(--text-secondary);
+      padding: 0.18rem 0.5rem;
+      border-radius: 5px;
+      font-size: 0.74rem;
+      font-weight: 500;
+    }
+
+    /* ============================================================
+       EXPERIENCE
+    ============================================================ */
+    .exp-entry { margin-bottom: 1.85rem; }
+    .exp-entry:last-child { margin-bottom: 0; }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 0.2rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .entry-role {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .entry-date {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    .entry-company {
+      font-size: 0.82rem;
+      color: var(--accent-soft);
+      font-weight: 500;
+      margin-bottom: 0.65rem;
+    }
+
+    .blist {
+      list-style: none;
+      padding: 0;
+    }
+
+    .blist li {
+      font-size: 0.865rem;
+      color: var(--text-secondary);
+      padding-left: 1.15rem;
+      position: relative;
+      margin-bottom: 0.42rem;
+      line-height: 1.65;
+    }
+
+    .blist li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--accent-blue);
+      font-size: 0.68rem;
+      top: 0.17rem;
+    }
+
+    .stack-line {
+      margin-top: 0.6rem;
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .stack-line strong { color: var(--accent-blue); }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+
+    /* ============================================================
+       PROJECTS
+    ============================================================ */
+    .proj-entry { margin-bottom: 1.85rem; }
+    .proj-entry:last-child { margin-bottom: 0; }
+
+    .proj-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .proj-tagline {
+      font-size: 0.81rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin: 0.25rem 0 0.6rem;
+    }
+
+    .pbadge {
+      font-size: 0.66rem;
+      font-weight: 600;
+      padding: 0.18rem 0.5rem;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      flex-shrink: 0;
+    }
+
+    .pb-saas     { background: rgba(59,130,246,0.1);  border: 1px solid rgba(59,130,246,0.25);  color: #60a5fa; }
+    .pb-platform { background: rgba(139,92,246,0.1);  border: 1px solid rgba(139,92,246,0.25);  color: #a78bfa; }
+    .pb-mobile   { background: rgba(245,158,11,0.1);  border: 1px solid rgba(245,158,11,0.25);  color: #fbbf24; }
+    .pb-active   { background: rgba(16,185,129,0.1);  border: 1px solid rgba(16,185,129,0.25);  color: #34d399; }
+    .pb-exp      { background: rgba(100,116,139,0.1); border: 1px solid rgba(100,116,139,0.25); color: #94a3b8; }
+
+    /* ============================================================
+       EDUCATION & CERTS
+    ============================================================ */
+    .edu-degree {
+      font-size: 0.94rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .edu-inst {
+      font-size: 0.81rem;
+      color: var(--accent-soft);
+      font-weight: 500;
+      margin-bottom: 0.55rem;
+    }
+
+    .cert-provider {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 0.55rem;
+    }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.35rem 1.5rem;
+      list-style: none;
+    }
+
+    .cert-grid li {
+      font-size: 0.84rem;
+      color: var(--text-secondary);
+      padding-left: 1rem;
+      position: relative;
+    }
+
+    .cert-grid li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: var(--accent-violet);
+      font-size: 0.48rem;
+      top: 0.23rem;
+    }
+
+    /* ============================================================
+       PROFILES
+    ============================================================ */
+    .profiles-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.6rem 1.5rem;
+    }
+
+    .profile-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.55rem;
+    }
+
+    .profile-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-violet);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      min-width: 68px;
+    }
+
+    .profile-link {
+      font-size: 0.82rem;
+      color: var(--text-accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .profile-link:hover { text-decoration: underline; }
+
+    /* ============================================================
+       ADDITIONAL
+    ============================================================ */
+    .add-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem 2rem;
+    }
+
+    .add-item h3 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.35rem;
+    }
+
+    .add-item p {
+      font-size: 0.84rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 620px) {
+      .cv-name          { font-size: 1.8rem; }
+      .skills-grid      { grid-template-columns: 1fr; }
+      .cert-grid        { grid-template-columns: 1fr; }
+      .profiles-grid    { grid-template-columns: 1fr; }
+      .add-grid         { grid-template-columns: 1fr; }
+      .entry-header     { flex-direction: column; gap: 0.1rem; }
+      .cv-section       { padding: 1.25rem 1rem; }
+      .cv-header        { padding: 1.5rem 1rem 1.25rem; }
+    }
+
+    /* ============================================================
+       PRINT / PDF — ATS-SAFE WHITE VERSION
+    ============================================================ */
+    @media print {
+      @page {
+        size: A4;
+        margin: 18mm 16mm 16mm 16mm;
+      }
+
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
+      body {
+        background: #fff !important;
+        color: #111 !important;
+        font-size: 9.5pt !important;
+        font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;
+        line-height: 1.5 !important;
+      }
+
+      .page-wrapper {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+
+      .toolbar { display: none !important; }
+
+      /* Header */
+      .cv-header {
+        background: #fff !important;
+        border: none !important;
+        border-bottom: 2pt solid #1e293b !important;
+        border-radius: 0 !important;
+        padding: 0 0 10pt !important;
+        margin-bottom: 6pt !important;
+      }
+      .cv-header::before { display: none !important; }
+
+      .cv-name {
+        font-size: 20pt !important;
+        font-weight: 800 !important;
+        color: #111 !important;
+        background: none !important;
+        -webkit-text-fill-color: #111 !important;
+        -webkit-background-clip: unset !important;
+        background-clip: unset !important;
+        letter-spacing: -0.01em !important;
+      }
+
+      .cv-title {
+        font-size: 10pt !important;
+        color: #374151 !important;
+        margin-bottom: 6pt !important;
+      }
+
+      .contact-item { color: #555 !important; font-size: 8pt !important; }
+      .contact-item a { color: #1d4ed8 !important; }
+      .c-dot { background: #6b7280 !important; }
+
+      /* Sections */
+      .cv-section {
+        background: #fff !important;
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 5pt 0 !important;
+        margin-bottom: 4pt !important;
+        border-bottom: 0.75pt solid #e5e7eb !important;
+        page-break-inside: avoid;
+      }
+
+      .section-title {
+        font-size: 7.5pt !important;
+        color: #1e293b !important;
+        letter-spacing: 0.1em !important;
+        margin-bottom: 5pt !important;
+      }
+      .section-title::after { background: #cbd5e1 !important; }
+
+      /* Summary */
+      .summary-text { color: #374151 !important; font-size: 9pt !important; }
+      .summary-text strong { color: #111 !important; }
+
+      .metric-pill {
+        background: #eff6ff !important;
+        border-color: #bfdbfe !important;
+        color: #1d4ed8 !important;
+        font-size: 7.5pt !important;
+      }
+
+      /* Skills */
+      .skills-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 4pt 12pt !important; }
+      .skill-group h3 { color: #4338ca !important; font-size: 7.5pt !important; }
+      .s-tag {
+        background: #f5f3ff !important;
+        border-color: #c4b5fd !important;
+        color: #374151 !important;
+        font-size: 7.5pt !important;
+      }
+
+      /* Experience */
+      .entry-role  { color: #111 !important;     font-size: 9.5pt !important; }
+      .entry-date  { color: #6b7280 !important;  font-size: 8.5pt !important; }
+      .entry-company { color: #4338ca !important; font-size: 8.5pt !important; }
+
+      .blist li { color: #374151 !important; font-size: 8.5pt !important; }
+      .blist li::before { color: #4338ca !important; }
+
+      .stack-line { color: #6b7280 !important; font-size: 7.5pt !important; }
+      .stack-line strong { color: #4338ca !important; }
+
+      .divider { border-top-color: #e5e7eb !important; margin: 6pt 0 !important; }
+
+      /* Projects */
+      .proj-name { color: #111 !important; font-size: 9.5pt !important; }
+      .proj-tagline { color: #6b7280 !important; font-size: 8pt !important; }
+      .pbadge {
+        background: #eff6ff !important;
+        border-color: #bfdbfe !important;
+        color: #1d4ed8 !important;
+        font-size: 6.5pt !important;
+      }
+      .pb-saas, .pb-platform, .pb-mobile, .pb-active, .pb-exp {
+        background: #eff6ff !important;
+        border-color: #bfdbfe !important;
+        color: #1d4ed8 !important;
+      }
+
+      /* Education */
+      .edu-degree { color: #111 !important; font-size: 9.5pt !important; }
+      .edu-inst   { color: #4338ca !important; font-size: 8.5pt !important; }
+      .entry-date { color: #6b7280 !important; }
+
+      /* Certs */
+      .cert-provider { color: #6b7280 !important; font-size: 8pt !important; }
+      .cert-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .cert-grid li { color: #374151 !important; font-size: 8.5pt !important; }
+      .cert-grid li::before { color: #4338ca !important; }
+
+      /* Profiles */
+      .profiles-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .profile-label { color: #4338ca !important; }
+      .profile-link  { color: #1d4ed8 !important; font-size: 8pt !important; }
+
+      /* Additional */
+      .add-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .add-item h3 { color: #4338ca !important; }
+      .add-item p  { color: #374151 !important; font-size: 8.5pt !important; }
+
+      /* Page breaks */
+      #projects, #education { page-break-before: auto; }
+      .proj-entry, .exp-entry { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- ============================================================
+       TOOLBAR
+  ============================================================ -->
+  <div class="toolbar">
+    <span class="toolbar-note">ATS-optimised &nbsp;·&nbsp; Single-column &nbsp;·&nbsp; PDF-ready</span>
+    <button class="btn-pdf" onclick="window.print()">&#11015; Save as PDF</button>
+  </div>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="cv-header">
+    <h1 class="cv-name">Adrin N Makombe</h1>
+    <p class="cv-title">AI Automation Engineer &amp; Full-Stack Developer &nbsp;|&nbsp; Blockchain &middot; SaaS &middot; AI Systems &middot; Linux Platform Engineering</p>
+    <div class="cv-contact">
+      <span class="contact-item"><span class="c-dot"></span>Cape Town, South Africa &middot; Remote Available</span>
+      <span class="contact-item"><span class="c-dot"></span><a href="mailto:amakodev@gmail.com">amakodev@gmail.com</a></span>
+      <span class="contact-item"><span class="c-dot"></span>+27 79 407 5794</span>
+      <span class="contact-item"><span class="c-dot"></span>Contract / Full-time Available</span>
+      <span class="contact-item"><span class="c-dot"></span>Dev Career Since 2021 &middot; Digital Business Background: 2017</span>
+      <span class="contact-item"><span class="c-dot"></span><a href="https://amakodev.github.io/portfolio" target="_blank">amakodev.github.io/portfolio</a></span>
+      <span class="contact-item"><span class="c-dot"></span><a href="https://github.com/amakodev" target="_blank">github.com/amakodev</a></span>
+      <span class="contact-item"><span class="c-dot"></span><a href="https://linkedin.com/in/amakodevz" target="_blank">linkedin.com/in/amakodevz</a></span>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       PROFESSIONAL SUMMARY
+  ============================================================ -->
+  <section class="cv-section" id="summary">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary-text">
+      <strong>AI Automation Engineer and full-stack developer with a 4-year software development career
+      (2021–present)</strong>, progressing rapidly from blockchain roots through AI automation, SaaS product
+      delivery, cross-platform mobile, and Linux-level OS engineering. Career arc: <em>Blockchain Developer
+      at Okamalabs (2021) &rarr; International Freelance Web3 &amp; AI on Upwork (2023) &rarr; AI Systems
+      Developer at USCreativz (Sep 2024) &rarr; Co-Founded Zyntrix Solutions (2025) &rarr; Linux Kernel
+      Engineering for OkamaOS gaming platform using Buildroot (April 2026).</em> Prior to software
+      development, built 4 years of commercial experience across digital marketing, content creation,
+      e-commerce, and affiliate marketing (2017–2021) — providing the product intuition and business
+      context that informs product-first engineering decisions. Operates under the <strong>amakodev</strong>
+      personal brand throughout the development career. Maintains <strong>130+ repositories across 24+
+      product categories</strong>. Strongest fit for full-stack, AI automation, product engineering, or
+      platform-adjacent roles.
+    </p>
+    <div class="summary-metrics">
+      <span class="metric-pill">Dev Career: 2021–Present</span>
+      <span class="metric-pill">Blockchain &rarr; AI Automation &rarr; Linux OS</span>
+      <span class="metric-pill">130+ Repositories &middot; 24+ Categories</span>
+      <span class="metric-pill">Co-Founded Zyntrix Solutions (2025)</span>
+      <span class="metric-pill">React &middot; Next.js &middot; React Native &middot; Flutter</span>
+      <span class="metric-pill">Contract / Full-time Open</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TECHNICAL SKILLS
+  ============================================================ -->
+  <section class="cv-section" id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span class="s-tag">React</span>
+          <span class="s-tag">Next.js</span>
+          <span class="s-tag">TypeScript</span>
+          <span class="s-tag">JavaScript</span>
+          <span class="s-tag">Vite</span>
+          <span class="s-tag">Tailwind CSS</span>
+          <span class="s-tag">Framer Motion</span>
+          <span class="s-tag">React Query</span>
+          <span class="s-tag">Zustand</span>
+          <span class="s-tag">HTML5</span>
+          <span class="s-tag">CSS3</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Mobile</h3>
+        <div class="skill-tags">
+          <span class="s-tag">React Native</span>
+          <span class="s-tag">Flutter</span>
+          <span class="s-tag">Expo</span>
+          <span class="s-tag">Expo Router</span>
+          <span class="s-tag">EAS Build</span>
+          <span class="s-tag">Cross-Platform Dev</span>
+          <span class="s-tag">Zustand Persist</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Backend &amp; APIs</h3>
+        <div class="skill-tags">
+          <span class="s-tag">Node.js</span>
+          <span class="s-tag">Python</span>
+          <span class="s-tag">REST APIs</span>
+          <span class="s-tag">API Integrations</span>
+          <span class="s-tag">API Gateway Design</span>
+          <span class="s-tag">Backend Services</span>
+          <span class="s-tag">Database Design</span>
+          <span class="s-tag">Axios</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>AI &amp; Automation</h3>
+        <div class="skill-tags">
+          <span class="s-tag">AI Agents</span>
+          <span class="s-tag">LLM API Integrations</span>
+          <span class="s-tag">Workflow Automation</span>
+          <span class="s-tag">Automation Pipelines</span>
+          <span class="s-tag">Google Apps Script</span>
+          <span class="s-tag">MQL5 / MetaTrader 5</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Blockchain &amp; Web3</h3>
+        <div class="skill-tags">
+          <span class="s-tag">Blockchain Development</span>
+          <span class="s-tag">Smart Contracts</span>
+          <span class="s-tag">Web3</span>
+          <span class="s-tag">Decentralised Systems</span>
+          <span class="s-tag">dApp Development</span>
+          <span class="s-tag">Cryptographic Protocols</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Cloud &amp; Data</h3>
+        <div class="skill-tags">
+          <span class="s-tag">Firebase</span>
+          <span class="s-tag">Firestore</span>
+          <span class="s-tag">Firebase Auth</span>
+          <span class="s-tag">Firebase Realtime DB</span>
+          <span class="s-tag">Expo SecureStore</span>
+          <span class="s-tag">Google Sheets API</span>
+          <span class="s-tag">Vercel</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Architecture &amp; Systems</h3>
+        <div class="skill-tags">
+          <span class="s-tag">SaaS Architecture</span>
+          <span class="s-tag">System Architecture</span>
+          <span class="s-tag">Platform Design</span>
+          <span class="s-tag">Product Ecosystem Design</span>
+          <span class="s-tag">Modular Architecture</span>
+          <span class="s-tag">API Proxy Design</span>
+          <span class="s-tag">Event-Driven Architecture</span>
+          <span class="s-tag">Git / GitHub</span>
+          <span class="s-tag">Vitest</span>
+          <span class="s-tag">Jest</span>
+        </div>
+      </div>
+
+      <div class="skill-group" style="grid-column: 1 / -1;">
+        <h3>Linux &amp; OS Systems</h3>
+        <div class="skill-tags">
+          <span class="s-tag">Linux</span>
+          <span class="s-tag">Buildroot</span>
+          <span class="s-tag">Kernel Engineering</span>
+          <span class="s-tag">Custom Linux Distribution</span>
+          <span class="s-tag">Embedded Linux</span>
+          <span class="s-tag">Boot Process Configuration</span>
+          <span class="s-tag">OS Architecture</span>
+          <span class="s-tag">Cross-Compilation</span>
+          <span class="s-tag">Root Filesystem Design</span>
+          <span class="s-tag">Linux Gaming Platform</span>
+          <span class="s-tag">Init System Configuration</span>
+          <span class="s-tag">Kernel Module Selection</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROFESSIONAL EXPERIENCE
+  ============================================================ -->
+  <section class="cv-section" id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <!-- Zyntrix Solutions — MOST RECENT -->
+    <div class="exp-entry">
+      <div class="entry-header">
+        <span class="entry-role">Co-Founder &amp; Platform Engineer</span>
+        <span class="entry-date">2025 – Present</span>
+      </div>
+      <div class="entry-company">Zyntrix Solutions — Digital Systems &amp; Technology Services &middot; Remote (Co-founded &amp; rebranded from SoftDevZA)</div>
+      <ul class="blist">
+        <li>Co-founded Zyntrix Solutions, scaling from SoftDevZA into a structured digital systems company delivering web, mobile, AI, and platform-level engineering.</li>
+        <li>Engineered OkamaOS (April 2026): a custom Linux gaming platform built using Buildroot as the core build system — configuring kernel modules, establishing a cross-compilation environment, generating a gaming-optimised root filesystem, and designing the full OS distribution from the ground up.</li>
+        <li>Configured Linux kernel for gaming-specific requirements: graphics subsystem integration, input device support, hardware compatibility, and boot process optimisation for a dedicated gaming environment.</li>
+        <li>Developed ZyntrixOS: an OS-inspired workspace platform delivering a browser-native product shell with unified apps, dashboards, and developer workflows above the Linux platform layer.</li>
+        <li>Maintained a 7-repository ecosystem (okamaos, okamaos-studio, zyntrixos and others) spanning the OS kernel layer, companion workspace tooling, and web platform product.</li>
+      </ul>
+      <p class="stack-line"><strong>Stack:</strong> Linux &middot; Buildroot &middot; Kernel Engineering &middot; Custom OS Distribution &middot; React &middot; TypeScript &middot; Node.js &middot; Platform Architecture</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- SoftDevZA -->
+    <div class="exp-entry">
+      <div class="entry-header">
+        <span class="entry-role">Software Developer — Web, Mobile &amp; AI</span>
+        <span class="entry-date">2025</span>
+      </div>
+      <div class="entry-company">SoftDevZA — Software Development Agency (later co-founded &amp; rebranded to Zyntrix Solutions)</div>
+      <ul class="blist">
+        <li>Delivered web, mobile, and AI development projects for client platforms — expanding technical range into cross-platform mobile delivery with React Native and Flutter alongside ongoing web/AI work.</li>
+        <li>Built AI-integrated features and workflow automation systems for client products, applying practical AI tooling to real production environments.</li>
+        <li>Contributed to scalable SaaS architecture and platform design work that directly informed the decision to co-found and rebrand to Zyntrix Solutions.</li>
+      </ul>
+      <p class="stack-line"><strong>Stack:</strong> React &middot; React Native &middot; Flutter &middot; Node.js &middot; Python &middot; REST APIs &middot; AI Systems &middot; JavaScript &middot; TypeScript</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- USCreativz -->
+    <div class="exp-entry">
+      <div class="entry-header">
+        <span class="entry-role">Developer — Web &amp; AI Systems</span>
+        <span class="entry-date">Sep 2024 – 2025</span>
+      </div>
+      <div class="entry-company">USCreativz — Digital Marketing &amp; Technology Agency</div>
+      <ul class="blist">
+        <li>Transitioned from freelance into a structured agency environment focused on web development and AI systems — bridging digital marketing operations with technical product delivery.</li>
+        <li>Built web-based tools and AI-assisted automation systems supporting campaign management, internal workflow tooling, and digital delivery operations for marketing teams.</li>
+        <li>Applied prior digital marketing background to build product-aware tools that mapped directly to real marketing team workflows and operational pain points, improving delivery outcomes.</li>
+      </ul>
+      <p class="stack-line"><strong>Stack:</strong> JavaScript &middot; React &middot; Node.js &middot; AI Automation &middot; Workflow Systems &middot; APIs &middot; Web Applications</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Freelance / Upwork -->
+    <div class="exp-entry">
+      <div class="entry-header">
+        <span class="entry-role">Freelance Developer — Blockchain &amp; Web3 to AI Automation</span>
+        <span class="entry-date">2023 – Sep 2024</span>
+      </div>
+      <div class="entry-company">amakodev &middot; Upwork — International Clients &middot; Remote</div>
+      <ul class="blist">
+        <li>Launched international freelance career on Upwork immediately post-graduation, securing blockchain and Web3 projects with clients across international markets.</li>
+        <li>Delivered Neptune Chain: an international blockchain client project applying smart contract and Web3 development in a production-facing environment.</li>
+        <li>Progressively pivoted from blockchain/Web3 into web development, AI automation, and workflow systems — tracking market demand and expanding technical delivery range across client engagements.</li>
+        <li>Operated under the amakodev brand as the professional identity for all freelance and product development work — a brand carried continuously from the start of the development career through all subsequent roles.</li>
+      </ul>
+      <p class="stack-line"><strong>Stack:</strong> Blockchain &middot; Smart Contracts &middot; Web3 &middot; React &middot; Node.js &middot; REST APIs &middot; AI Automation &middot; Workflow Automation</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Okamalabs -->
+    <div class="exp-entry">
+      <div class="entry-header">
+        <span class="entry-role">Blockchain Developer</span>
+        <span class="entry-date">Mid 2021 – 2023</span>
+      </div>
+      <div class="entry-company">Okamalabs — Blockchain &amp; Technology (during undergraduate degree)</div>
+      <ul class="blist">
+        <li>First professional development role — joined Okamalabs during undergraduate study at Richfield Graduate Institution, establishing the foundation of a software engineering career with a hands-on focus on blockchain and decentralised systems.</li>
+        <li>Developed blockchain-based applications and smart contract systems, gaining deep technical grounding in decentralised architecture, cryptographic protocols, and Web3 development patterns.</li>
+        <li>Ran development work in parallel under the amakodev brand from the start, combining academic coursework with real-world delivery that shaped the product thinking carried into all subsequent roles.</li>
+      </ul>
+      <p class="stack-line"><strong>Stack:</strong> Blockchain &middot; Smart Contracts &middot; Web3 &middot; Decentralised Systems &middot; Programming Fundamentals &middot; Software Engineering</p>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       FLAGSHIP PROJECTS
+  ============================================================ -->
+  <section class="cv-section" id="projects">
+    <h2 class="section-title">Flagship Projects</h2>
+
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-bottom:1.35rem;line-height:1.65;padding:0.6rem 0.9rem;background:rgba(99,120,255,0.06);border-left:2px solid var(--accent-blue);border-radius:0 6px 6px 0;"><strong style="color:var(--text-accent);">Portfolio Note:</strong> GitHub repository tracking began in 2024. Projects below are recent documented work from an active 4-year development career (2021–present) spanning blockchain, AI automation, SaaS, mobile, and Linux platform engineering.</p>
+
+    <!-- ViralFlow -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">ViralFlow Ink — AI Content Operations SaaS</span>
+        <span class="pbadge pb-saas">SaaS &middot; Active</span>
+      </div>
+      <p class="proj-tagline">AI-assisted workflow platform centralizing content planning, scheduling, and campaign execution for creator and marketing teams.</p>
+      <ul class="blist">
+        <li>Designed an AI-assisted workflow SaaS centralizing content planning, scheduling, and execution for faster, more repeatable campaign operations.</li>
+        <li>Engineered a React 18 + TypeScript frontend with reusable workflow patterns, structured scheduling views, and product-grade UX optimised for team coordination.</li>
+        <li>Architected integration-heavy backend and API proxy flows connecting operational workflows to Google Sheets and external services, reducing tool-switching and manual handoffs.</li>
+        <li>Owned delivery end-to-end: product design &rarr; frontend engineering &rarr; systems architecture &rarr; deployment &rarr; automation feature design.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> React 18 &middot; TypeScript &middot; Vite &middot; Tailwind &middot; Firebase &middot; Node.js &middot; Google Apps Script &middot; Google Sheets API &middot; Vercel &nbsp;&nbsp;
+        <strong>Focus:</strong> AI workflow design &middot; SaaS product architecture &middot; API integrations &middot; end-to-end product ownership
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- OkamaOS / ZyntrixOS -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">OkamaOS — Custom Linux Gaming Platform &amp; ZyntrixOS Workspace Ecosystem</span>
+        <span class="pbadge pb-platform">Linux &middot; Kernel Engineering &middot; Apr 2026</span>
+      </div>
+      <p class="proj-tagline">Custom Linux gaming platform built from the ground up using Buildroot — kernel configuration, gaming-optimised OS distribution design, hardware integration, and a 7-repository platform ecosystem extending into web-delivered workspace tooling.</p>
+      <ul class="blist">
+        <li>Engineered OkamaOS: a custom Linux gaming platform using <strong>Buildroot</strong> as the core build system — configuring kernel modules, setting up a cross-compilation environment, generating a gaming-optimised root filesystem, and designing the full OS distribution from the ground up.</li>
+        <li>Configured Linux kernel parameters for gaming-specific requirements: hardware compatibility layers, graphics subsystem integration, input device support, and boot process optimisation for a dedicated gaming environment.</li>
+        <li>Developed OkamaOS Studio as a companion workspace and developer tooling layer above the OS core — providing application management, developer workflows, and a product shell interface running on top of the custom Linux base.</li>
+        <li>Extended the same systems thinking into ZyntrixOS: a web-delivered OS-style workspace platform unifying apps, dashboards, tools, and developer workflows into a cohesive browser-native operating environment.</li>
+        <li>Maintained a 7-repository platform ecosystem (amakodev/okamaos, amakodev/okamaos-studio, amakodev/okamaos_projectX, amakodev/zyntrixos, amakodev/trust-os-hub, zyntrixsolutions/ZyntrixOS, zyntrixsolutions/okamaos) spanning kernel builds, workspace layers, and platform tooling.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> Linux &middot; Buildroot &middot; Kernel Engineering &middot; Custom OS Distribution &middot; Root Filesystem Design &middot; Cross-Compilation &middot; React &middot; TypeScript &middot; Platform Architecture &nbsp;&nbsp;
+        <strong>Focus:</strong> Kernel engineering &middot; Linux gaming platform &middot; embedded Linux &middot; OS distribution design &middot; workspace product architecture &middot; platform ecosystem design
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- MiClass -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">MiClass — Personalized AI Tutor App</span>
+        <span class="pbadge pb-mobile">Mobile &middot; AI-Enabled</span>
+      </div>
+      <p class="proj-tagline">Production-grade mobile learning application with AI-enabled tutoring flows, secure data handling, and version-controlled rollout.</p>
+      <ul class="blist">
+        <li>Developed a React Native / Expo application with authentication, secure local storage, Firebase-backed data flows, and structured document handling for learner-facing experiences.</li>
+        <li>Integrated AI endpoint configuration and PDF/document processing capabilities to support personalized tutoring workflows and smarter in-app learning assistance.</li>
+        <li>Implemented version-gating and configuration controls improving rollout safety and product operations discipline in a production mobile environment.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> Expo &middot; React Native &middot; Firebase Auth &middot; Firebase Realtime DB &middot; Expo SecureStore &middot; Axios &middot; Document Picker &middot; EAS Build &nbsp;&nbsp;
+        <strong>Focus:</strong> Mobile product delivery &middot; AI-enabled edtech &middot; secure storage &middot; backend integration
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- JusAesthetic -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">JusAesthetic — Realtime Cross-Platform Social App</span>
+        <span class="pbadge pb-mobile">Mobile &middot; Realtime</span>
+      </div>
+      <p class="proj-tagline">Authenticated realtime social experience with Firestore subscriptions, device-native camera/QR integrations, and TypeScript Expo Router architecture.</p>
+      <ul class="blist">
+        <li>Built a TypeScript Expo Router application with authenticated route gating, profile-aware flows, and realtime user-state updates via Firestore subscriptions.</li>
+        <li>Integrated social/profile data patterns and device capabilities including camera, QR scanning, and authentication-linked user experiences.</li>
+        <li>Structured routing and state logic for consistent UI behaviour across changing auth states, improving continuity in a realtime mobile environment.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> Expo &middot; TypeScript &middot; Expo Router &middot; React Native Firebase &middot; Firestore &middot; Google Sign-In &middot; Camera/QR &middot; Jest &nbsp;&nbsp;
+        <strong>Focus:</strong> Realtime app engineering &middot; cloud-backed state &middot; cross-platform development &middot; mobile UX systems
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Grind City Empire -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">Grind City Empire — Browser-Based Web Game</span>
+        <span class="pbadge pb-active">Active Build</span>
+      </div>
+      <p class="proj-tagline">Complex frontend state management and progression-system design demonstrating advanced product engineering depth beyond standard CRUD applications.</p>
+      <ul class="blist">
+        <li>Developed a browser-based game with multiple screens, persisted state, upgrade and economy mechanics, and progression logic to support deeper user interaction loops.</li>
+        <li>Used Zustand Persist and modular stores to handle complex gameplay behaviour, decision flows, and reusable front-end architecture beyond standard CRUD applications.</li>
+        <li>Included Vitest testing configuration and modular screen design, reinforcing maintainability and engineering discipline in a richer interactive product.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> React &middot; TypeScript &middot; Vite &middot; Tailwind &middot; Zustand Persist &middot; React Query &middot; Framer Motion &middot; Vitest &nbsp;&nbsp;
+        <strong>Focus:</strong> State-heavy frontend systems &middot; progression logic &middot; modular architecture &middot; testing discipline
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- ScalpGoat -->
+    <div class="proj-entry">
+      <div class="entry-header">
+        <span class="proj-name">ScalpGoat — Algorithmic Trading System Experiment</span>
+        <span class="pbadge pb-exp">R&amp;D &middot; Experiment</span>
+      </div>
+      <p class="proj-tagline">Rules-driven trading automation experiment demonstrating analytical thinking, modular signal processing, and event-driven systems design outside traditional stacks.</p>
+      <ul class="blist">
+        <li>Developed a MetaTrader 5 expert advisor with modular components for indicators, market condition scoring, and execution constraints.</li>
+        <li>Combined multi-timeframe signal logic, support/resistance analysis, and risk-control concepts into a structured automated decision system.</li>
+        <li>Separated analytical logic, conditions, and trade behaviour into modular units for cleaner maintainability — demonstrating comfort building algorithmic systems outside traditional web and mobile stacks.</li>
+      </ul>
+      <p class="stack-line">
+        <strong>Stack:</strong> MQL5 &middot; MetaTrader 5 &middot; Algorithmic Strategy Logic &middot; Event-Driven Rules &middot; Risk Constraints &nbsp;&nbsp;
+        <strong>Focus:</strong> Analytical systems design &middot; automation logic &middot; rule-based architectures &middot; event-driven programming
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       EDUCATION
+  ============================================================ -->
+  <section class="cv-section" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="exp-entry" style="margin-bottom:0;">
+      <div class="entry-header">
+        <span class="edu-degree">Bachelor of Science in Information Systems</span>
+        <span class="entry-date">2021 – 2023</span>
+      </div>
+      <div class="edu-inst">Richfield Graduate Institution &middot; South Africa</div>
+      <ul class="blist">
+        <li>Core study areas: programming, web technology, information systems, databases, systems analysis, and digital business problem-solving.</li>
+        <li>Strengthened technical perspective through coursework in business systems, data management, and practical IT problem-solving.</li>
+        <li>Worked concurrently as a Blockchain Developer at Okamalabs (from mid-2021) and under the amakodev personal brand — applying coursework directly to real-world blockchain and software development throughout the degree programme.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CERTIFICATIONS & LEARNING
+  ============================================================ -->
+  <section class="cv-section" id="certifications">
+    <h2 class="section-title">Certifications &amp; Learning</h2>
+    <p class="cert-provider">Alison Diplomas &amp; Professional Development</p>
+    <ul class="cert-grid">
+      <li>Diploma in Software Project Management</li>
+      <li>Advanced Diploma in Modern Application Development</li>
+      <li>Diploma in Cyber Security</li>
+      <li>Diploma in Python Programming</li>
+      <li>Diploma in Machine Learning with Python</li>
+      <li>Diploma in Applied Generative AI</li>
+    </ul>
+    <p class="stack-line" style="margin-top:0.65rem;">
+      <strong>Focus:</strong> Continuous self-directed learning across software project delivery, modern application development, cybersecurity, Python engineering, machine learning, and applied generative AI.
+    </p>
+  </section>
+
+  <!-- ============================================================
+       PROFESSIONAL PROFILES
+  ============================================================ -->
+  <section class="cv-section" id="profiles">
+    <h2 class="section-title">Professional Profiles</h2>
+    <div class="profiles-grid">
+      <div class="profile-row">
+        <span class="profile-label">LinkedIn</span>
+        <a class="profile-link" href="https://linkedin.com/in/amakodevz" target="_blank">linkedin.com/in/amakodevz</a>
+      </div>
+      <div class="profile-row">
+        <span class="profile-label">GitHub</span>
+        <a class="profile-link" href="https://github.com/amakodev" target="_blank">github.com/amakodev</a>
+      </div>
+      <div class="profile-row">
+        <span class="profile-label">Portfolio</span>
+        <a class="profile-link" href="https://amsoftwarezw.space" target="_blank">amsoftwarezw.space</a>
+      </div>
+      <div class="profile-row">
+        <span class="profile-label">Upwork</span>
+        <a class="profile-link" href="https://upwork.com/freelancers/~012553b7bf3e196c60" target="_blank">upwork.com/freelancers/~012553b7bf3e196c60</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ADDITIONAL INFORMATION
+  ============================================================ -->
+  <section class="cv-section" id="additional">
+    <h2 class="section-title">Additional Information</h2>
+    <div class="add-grid">
+      <div class="add-item">
+        <h3>Work Ethic</h3>
+        <p>Known for taking full ownership of projects, working with clarity, and delivering complete solutions rather than partial implementations.</p>
+      </div>
+      <div class="add-item">
+        <h3>Learning Mindset</h3>
+        <p>Continuously develops practical skills in AI automation, SaaS architecture, and modern full-stack product delivery through self-directed learning and applied project work.</p>
+      </div>
+      <div class="add-item">
+        <h3>Collaboration Style</h3>
+        <p>Comfortable working with founders, startups, and product teams to turn early-stage ideas into practical software systems with clear execution and product-minded delivery.</p>
+      </div>
+      <div class="add-item">
+        <h3>Interests</h3>
+        <p>Maintains an active lifestyle through gym training, football, martial arts, hiking, and reading — habits that reinforce discipline, consistency, resilience, and focus.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
