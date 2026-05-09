@@ -59,11 +59,12 @@ npm run build
 npm run deploy
 ```
 
-The GitHub Actions workflow at `.github/workflows/deploy.yml` auto-deploys on every push to `main`.
-
 **GitHub Pages Settings:**
-- Source: GitHub Actions
+- Source: Deploy from a branch
+- Branch: `gh-pages` / `(root)`
 - URL: `https://amakodev.github.io/portfolio`
+
+Note: `npm run deploy` uses `gh-pages` package to push the `dist` folder to the `gh-pages` branch. No billing required.
 
 ## Assets
 
