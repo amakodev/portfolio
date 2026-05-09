@@ -49,7 +49,7 @@ const RECRUITER_SUMMARY = `Adrin N Makombe — Builder Portfolio Summary
 
 Best-fit roles: Full-stack developer, Product engineer, Founding engineer, Platform-minded developer, Automation/internal tools developer.
 
-Contact: adrin@amsoftwarezw.space | github.com/amakodev | linkedin.com/in/amakodevz`
+Contact: amakodev@gmail.com | amakodev.github.io/portfolio | github.com/amakodev | linkedin.com/in/amakodevz`
 
 export default function S16FinalPitch() {
   const { inView, ref } = useInView()
@@ -103,7 +103,7 @@ export default function S16FinalPitch() {
 
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               <a
-                href="mailto:adrin@amsoftwarezw.space"
+                href="mailto:amakodev@gmail.com"
                 className="btn-primary text-sm px-6 py-3"
               >
                 <Mail size={14} /> Contact Adrin
@@ -136,7 +136,9 @@ export default function S16FinalPitch() {
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-500">
-              <span>adrin@amsoftwarezw.space</span>
+              <span>amakodev@gmail.com</span>
+              <span className="hidden sm:block">·</span>
+              <a href="https://amakodev.github.io/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">amakodev.github.io/portfolio</a>
               <span className="hidden sm:block">·</span>
               <span>+27 79 407 5794</span>
               <span className="hidden sm:block">·</span>

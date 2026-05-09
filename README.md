@@ -73,6 +73,7 @@ The GitHub Actions workflow at `.github/workflows/deploy.yml` auto-deploys on ev
 
 ## Contact
 
-- **Email:** adrin@amsoftwarezw.space
+- **Email:** amakodev@gmail.com
+- **Portfolio:** [amakodev.github.io/portfolio](https://amakodev.github.io/portfolio)
 - **GitHub:** [github.com/amakodev](https://github.com/amakodev)
 - **LinkedIn:** [linkedin.com/in/amakodevz](https://linkedin.com/in/amakodevz)

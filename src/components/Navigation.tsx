@@ -71,7 +71,7 @@ export default function Navigation() {
               GitHub
             </a>
             <a
-              href="mailto:adrin@amsoftwarezw.space"
+              href="mailto:amakodev@gmail.com"
               className="btn-primary text-xs py-1.5 px-3"
             >
               Contact
@@ -104,7 +104,7 @@ export default function Navigation() {
             ))}
             <div className="flex gap-2 p-4 border-t border-white/10">
               <a href="https://github.com/amakodev" target="_blank" rel="noopener noreferrer" className="btn-secondary text-xs flex-1 justify-center">GitHub</a>
-              <a href="mailto:adrin@amsoftwarezw.space" className="btn-primary text-xs flex-1 justify-center">Contact</a>
+              <a href="mailto:amakodev@gmail.com" className="btn-primary text-xs flex-1 justify-center">Contact</a>
             </div>
           </div>
         )}

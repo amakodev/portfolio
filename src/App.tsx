@@ -70,7 +70,8 @@ export default function App() {
           <div className="flex items-center gap-4">
             <a href="https://github.com/amakodev" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">GitHub</a>
             <a href="https://linkedin.com/in/amakodevz" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">LinkedIn</a>
-            <a href="mailto:adrin@amsoftwarezw.space" className="hover:text-slate-400 transition-colors">Email</a>
+            <a href="https://amakodev.github.io/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">Portfolio</a>
+            <a href="mailto:amakodev@gmail.com" className="hover:text-slate-400 transition-colors">Email</a>
           </div>
         </div>
       </footer>
