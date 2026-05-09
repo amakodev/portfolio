@@ -1,0 +1,80 @@
+[
+  {
+    "Priority": 1,
+    "Project / Platform": "OS-style Platform / Workspace R&D",
+    "Repos Included": "amakodev/zyntrixos, amakodev/trust-os-hub, amakodev/okamaos, amakodev/okamaos-studio, amakodev/okamaos_projectX, zyntrixsolutions/ZyntrixOS, zyntrixsolutions/okamaos",
+    "CV Bullet": "Built and maintained 7 repo(s) in the os-style platform / workspace r&d layer, demonstrating platform thinking, systems architecture, ui shell design, product infrastructure."
+  },
+  {
+    "Priority": 2,
+    "Project / Platform": "Cloud Platform / Infrastructure",
+    "Repos Included": "amakodev/Humba-Cloud, amakodev/HumbaCloud_v1, amakodev/humba_cloud_release",
+    "CV Bullet": "Built and maintained 3 repo(s) in the cloud platform / infrastructure layer, demonstrating cloud concepts, deployment readiness, infrastructure packaging, reliability mindset."
+  },
+  {
+    "Priority": 3,
+    "Project / Platform": "API Gateway / Integration Infrastructure",
+    "Repos Included": "amakodev/api-router.zyntrix.solutions",
+    "CV Bullet": "Built and maintained 1 repo(s) in the api gateway / integration infrastructure layer, demonstrating api design, routing, integrations, backend maintainability, service abstraction."
+  },
+  {
+    "Priority": 4,
+    "Project / Platform": "Marketplace / Multi-sided Platform",
+    "Repos Included": "amakodev/marketplace.zyntrix.solutions",
+    "CV Bullet": "Built and maintained 1 repo(s) in the marketplace / multi-sided platform layer, demonstrating role-based flows, multi-sided products, user journeys, access control."
+  },
+  {
+    "Priority": 5,
+    "Project / Platform": "Client Portal",
+    "Repos Included": "amakodev/client.zyntrix.solutions",
+    "CV Bullet": "Built and maintained 1 repo(s) in the client portal layer, demonstrating client dashboards, service workflows, secure access, operational tooling."
+  },
+  {
+    "Priority": 6,
+    "Project / Platform": "Recruitment Platform",
+    "Repos Included": "amakodev/recruiter.zyntrix.solutions",
+    "CV Bullet": "Built and maintained 1 repo(s) in the recruitment platform layer, demonstrating recruiter workflows, applicant tracking concepts, role-specific dashboards."
+  },
+  {
+    "Priority": 7,
+    "Project / Platform": "Learning / Academy Platform",
+    "Repos Included": "amakodev/academy.zyntrix.solutions",
+    "CV Bullet": "Built and maintained 1 repo(s) in the learning / academy platform layer, demonstrating education technology, structured content, learner experience, platform scaling."
+  },
+  {
+    "Priority": 8,
+    "Project / Platform": "Education / AI Learning",
+    "Repos Included": "amakodev/project_mi_quest, amakodev/okamalabs_miclass_present_web, amakodev/mi_class_web, amakodev/mi_class_server, amakodev/miclass_web, amakodev/mobile_project_miclass_expo-master, okamalabs/mobile_project_miclass_expo, okamalabs/server_miclass_node, okamalabs/web_project_miclass_vreact",
+    "CV Bullet": "Built and maintained 9 repo(s) in the education / ai learning layer, demonstrating ai learning systems, mobile/web delivery, firebase/backend integration."
+  },
+  {
+    "Priority": 9,
+    "Project / Platform": "Content Automation / Creator Platform",
+    "Repos Included": "amakodev/instaflow-lovable, amakodev/instaflow-landingpage, amakodev/Instaflow-app, amakodev/instaflow-cms",
+    "CV Bullet": "Built and maintained 4 repo(s) in the content automation / creator platform layer, demonstrating cms, automation, campaign workflows, creator tools."
+  },
+  {
+    "Priority": 10,
+    "Project / Platform": "Business Automation / Sales Funnels",
+    "Repos Included": "amakodev/softdevza.space, amakodev/softdevza-admin, amakodev/business_automation_sales_funnel_softdevza, amakodev/ai_agent_sales_funnel_softdevza, amakodev/web_development_sales_funnel_softdevza, amakodev/mobile_app_development_sales_funnel_softdevza, amakodev/softdevza_content_creator, amakodev/softdevza_whatsapp_commerce_catelyst_sales_funnel, amakodev/softdevza_wcc_demo_shop",
+    "CV Bullet": "Built and maintained 9 repo(s) in the business automation / sales funnels layer, demonstrating automation, lead capture, crm-style flows, client intake systems."
+  },
+  {
+    "Priority": 11,
+    "Project / Platform": "E-commerce / Commerce",
+    "Repos Included": "amakodev/shop-uscreativz, amakodev/luxesteps.shop, amakodev/ifon.store, amakodev/ifon.store_shopify, amakodev/wa_ecom_platform, amakodev/dubai-perfume-store",
+    "CV Bullet": "Built and maintained 6 repo(s) in the e-commerce / commerce layer, demonstrating storefronts, product catalogs, commerce ux, sales funnels."
+  },
+  {
+    "Priority": 12,
+    "Project / Platform": "Booking / Travel / Reservations",
+    "Repos Included": "amakodev/business_travel_standard_site, amakodev/spotbook-premium, amakodev/reserve-relish, amakodev/adm-backend, amakodev/ADM_travels, amakodev/concours-booking-suite, amakodev/myspot-explorer, amakodev/my_spot_demo, amakodev/skybooker-dashboard",
+    "CV Bullet": "Built and maintained 9 repo(s) in the booking / travel / reservations layer, demonstrating booking logic, dashboards, service platforms, scheduling workflows."
+  },
+  {
+    "Priority": 13,
+    "Project / Platform": "Backend / Infrastructure",
+    "Repos Included": "amakodev/japp_backend, amakodev/redis, amakodev/backend-system, amakodev/functions",
+    "CV Bullet": "Built and maintained 4 repo(s) in the backend / infrastructure layer, demonstrating server-side logic, api support, functions, infrastructure troubleshooting."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Portfolio Layer": "General Software / Prototype",
+    "Repo Count": 27,
+    "Representative Repos": "amakodev/hangdogsocial, amakodev/dev_references, amakodev/japp-frontend, amakodev/Lawn-care-eSwatini, amakodev/project_okama_design, amakodev/project, amakodev/project_miwritter, amakodev/project_kaydrin",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "Rapid prototyping, broad technical adaptability, product execution."
+  },
+  {
+    "Portfolio Layer": "Blockchain / Web3 / Client Systems",
+    "Repo Count": 14,
+    "Representative Repos": "amakodev/client_PietyToken, amakodev/hds-backend, amakodev/hds_smart_contracts, amakodev/hds-landing_page, amakodev/uscreativz-landing, amakodev/uscreativz-contracts, amakodev/uscreativz-webai, amakodev/uscreativz-backend",
+    "Story": "Web3/client systems layer: token, contract, landing, backend, and marketplace experiments.",
+    "Recruiter Interpretation": "Web3 architecture, smart contracts, backend/client integration."
+  },
+  {
+    "Portfolio Layer": "Web / Marketing Site",
+    "Repo Count": 14,
+    "Representative Repos": "amakodev/amakosites, amakodev/funded_here_landing_page, amakodev/web, amakodev/ja_web, amakodev/amakodev.site, amakodev/okamalabs-25.com, amakodev/3d-landing-page, amakodev/amakodev.site_update1",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "Production web delivery, SEO/landing pages, responsive design."
+  },
+  {
+    "Portfolio Layer": "Education / AI Learning",
+    "Repo Count": 9,
+    "Representative Repos": "amakodev/project_mi_quest, amakodev/okamalabs_miclass_present_web, amakodev/mi_class_web, amakodev/mi_class_server, amakodev/miclass_web, amakodev/mobile_project_miclass_expo-master, okamalabs/mobile_project_miclass_expo, okamalabs/server_miclass_node",
+    "Story": "OkamaLabs/MiClass layer: learning products across mobile, web, server, and AI-assisted education workflows.",
+    "Recruiter Interpretation": "AI learning systems, mobile/web delivery, Firebase/backend integration."
+  },
+  {
+    "Portfolio Layer": "Booking / Travel / Reservations",
+    "Repo Count": 9,
+    "Representative Repos": "amakodev/business_travel_standard_site, amakodev/spotbook-premium, amakodev/reserve-relish, amakodev/adm-backend, amakodev/ADM_travels, amakodev/concours-booking-suite, amakodev/myspot-explorer, amakodev/my_spot_demo",
+    "Story": "Service-business layer: bookings, travel, reservations, dashboards, and local discovery.",
+    "Recruiter Interpretation": "Booking logic, dashboards, service platforms, scheduling workflows."
+  },
+  {
+    "Portfolio Layer": "Business Automation / Sales Funnels",
+    "Repo Count": 9,
+    "Representative Repos": "amakodev/softdevza.space, amakodev/softdevza-admin, amakodev/business_automation_sales_funnel_softdevza, amakodev/ai_agent_sales_funnel_softdevza, amakodev/web_development_sales_funnel_softdevza, amakodev/mobile_app_development_sales_funnel_softdevza, amakodev/softdevza_content_creator, amakodev/softdevza_whatsapp_commerce_catelyst_sales_funnel",
+    "Story": "SoftDevZA automation layer: lead capture, client intake, service funnels, dashboards, and workflow automation.",
+    "Recruiter Interpretation": "Automation, lead capture, CRM-style flows, client intake systems."
+  },
+  {
+    "Portfolio Layer": "OS-style Platform / Workspace R&D",
+    "Repo Count": 7,
+    "Representative Repos": "amakodev/zyntrixos, amakodev/trust-os-hub, amakodev/okamaos, amakodev/okamaos-studio, amakodev/okamaos_projectX, zyntrixsolutions/ZyntrixOS, zyntrixsolutions/okamaos",
+    "Story": "Platform R&D layer: browser-based OS/workspace systems that unify apps, dashboards, tools, and developer workflows.",
+    "Recruiter Interpretation": "Platform thinking, systems architecture, UI shell design, product infrastructure."
+  },
+  {
+    "Portfolio Layer": "Games / Interactive Systems",
+    "Repo Count": 6,
+    "Representative Repos": "amakodev/ScalpGoat, amakodev/MiEmpire, amakodev/OkamaGuess, amakodev/grind-city-empire, amakodev/voxel-toy-box, okamalabs/okamagame_project_sts_unity",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "Complex state, simulation logic, interactive frontend systems."
+  },
+  {
+    "Portfolio Layer": "E-commerce / Commerce",
+    "Repo Count": 6,
+    "Representative Repos": "amakodev/shop-uscreativz, amakodev/luxesteps.shop, amakodev/ifon.store, amakodev/ifon.store_shopify, amakodev/wa_ecom_platform, amakodev/dubai-perfume-store",
+    "Story": "Commerce layer: storefronts, WhatsApp commerce, products, conversion funnels, and online selling.",
+    "Recruiter Interpretation": "Storefronts, product catalogs, commerce UX, sales funnels."
+  },
+  {
+    "Portfolio Layer": "Backend / Infrastructure",
+    "Repo Count": 4,
+    "Representative Repos": "amakodev/japp_backend, amakodev/redis, amakodev/backend-system, amakodev/functions",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "Server-side logic, API support, functions, infrastructure troubleshooting."
+  },
+  {
+    "Portfolio Layer": "Content Automation / Creator Platform",
+    "Repo Count": 4,
+    "Representative Repos": "amakodev/instaflow-lovable, amakodev/instaflow-landingpage, amakodev/Instaflow-app, amakodev/instaflow-cms",
+    "Story": "SoftDevZA automation layer: lead capture, client intake, service funnels, dashboards, and workflow automation.",
+    "Recruiter Interpretation": "CMS, automation, campaign workflows, creator tools."
+  },
+  {
+    "Portfolio Layer": "Connector Gap / Needs Review",
+    "Repo Count": 4,
+    "Representative Repos": "amakodev/[Connector-hidden repo 1 — name not returned], amakodev/[Connector-hidden repo 2 — name not returned], amakodev/[Connector-hidden repo 3 — name not returned], amakodev/[Connector-hidden repo 4 — name not returned]",
+    "Story": "Included to preserve the verified 119 amakodev count; replace with exact repo name after connector exposes it.",
+    "Recruiter Interpretation": "Needs manual GitHub naming confirmation; included so total count matches verified repository count."
+  },
+  {
+    "Portfolio Layer": "Zyntrix Ecosystem",
+    "Repo Count": 3,
+    "Representative Repos": "amakodev/zyntrix_main, amakodev/za.zyntrix.solutions, amakodev/corporate.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Rapid prototyping, broad technical adaptability, product execution."
+  },
+  {
+    "Portfolio Layer": "Cloud Platform / Infrastructure",
+    "Repo Count": 3,
+    "Representative Repos": "amakodev/Humba-Cloud, amakodev/HumbaCloud_v1, amakodev/humba_cloud_release",
+    "Story": "Infrastructure layer: cloud platform packaging, hosting concepts, deployment workflows, and managed product environments.",
+    "Recruiter Interpretation": "Cloud concepts, deployment readiness, infrastructure packaging, reliability mindset."
+  },
+  {
+    "Portfolio Layer": "AI / Decision Support",
+    "Repo Count": 2,
+    "Representative Repos": "amakodev/the_oracle, amakodev/theoracle-mvp-2",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "AI-assisted workflows, decision support products, automation strategy."
+  },
+  {
+    "Portfolio Layer": "Business Systems / POS",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/pos_project",
+    "Story": "Broader founder-builder portfolio: product prototypes, client builds, internal tools, and technical execution across domains.",
+    "Recruiter Interpretation": "Operational business tooling, transaction/workflow thinking."
+  },
+  {
+    "Portfolio Layer": "Affiliate / Growth Platform",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/zyntrix-affiliate-hub",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Referral/growth systems, attribution thinking, campaign operations."
+  },
+  {
+    "Portfolio Layer": "Marketplace / Multi-sided Platform",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/marketplace.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Role-based flows, multi-sided products, user journeys, access control."
+  },
+  {
+    "Portfolio Layer": "Learning / Academy Platform",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/academy.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Education technology, structured content, learner experience, platform scaling."
+  },
+  {
+    "Portfolio Layer": "API Gateway / Integration Infrastructure",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/api-router.zyntrix.solutions",
+    "Story": "Connectivity layer: central API routing, integration management, service access, and reusable backend patterns.",
+    "Recruiter Interpretation": "API design, routing, integrations, backend maintainability, service abstraction."
+  },
+  {
+    "Portfolio Layer": "Internal Operations / Boardroom",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/board.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Executive dashboards, internal tooling, decision support workflows."
+  },
+  {
+    "Portfolio Layer": "Client Portal",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/client.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Client dashboards, service workflows, secure access, operational tooling."
+  },
+  {
+    "Portfolio Layer": "Recruitment Platform",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/recruiter.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Recruiter workflows, applicant tracking concepts, role-specific dashboards."
+  },
+  {
+    "Portfolio Layer": "Commerce Platform",
+    "Repo Count": 1,
+    "Representative Repos": "amakodev/store.zyntrix.solutions",
+    "Story": "Zyntrix ecosystem layer: connected products for clients, recruiters, talent, stores, academy, internal teams, and growth.",
+    "Recruiter Interpretation": "Digital storefronts, product flows, checkout/conversion thinking."
+  }
+]

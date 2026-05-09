@@ -1,0 +1,22 @@
+[
+  {
+    "Term": "Evidence Level",
+    "Meaning": "Indicates whether the row is direct GitHub metadata or a transparent placeholder for verified count reconciliation."
+  },
+  {
+    "Term": "Technical Signals",
+    "Meaning": "Likely technical areas inferred from repo name and product context."
+  },
+  {
+    "Term": "Bigger Story",
+    "Meaning": "How the repo contributes to the broader founder-builder narrative."
+  },
+  {
+    "Term": "Maturity Signal",
+    "Meaning": "Size-based indicator only; not a quality guarantee."
+  },
+  {
+    "Term": "Connector-hidden placeholders",
+    "Meaning": "Four rows included because user verified 119 amakodev repos while connector calls emitted 115 unique amakodev names."
+  }
+]

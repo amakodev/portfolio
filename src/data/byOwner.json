@@ -1,0 +1,29 @@
+[
+  {
+    "Owner": "amakodev",
+    "Total Repos": 119,
+    "Public": 27,
+    "Private": 88,
+    "Unknown Visibility": 4,
+    "Largest Repo KB": 124004,
+    "Primary Story": "Founder-builder portfolio spanning platform infrastructure, OS/cloud R&D, marketplaces, automation, commerce, bookings, education, Web3, and client work."
+  },
+  {
+    "Owner": "okamalabs",
+    "Total Repos": 9,
+    "Public": 1,
+    "Private": 8,
+    "Unknown Visibility": 0,
+    "Largest Repo KB": 241815,
+    "Primary Story": "Education/product lab foundation for MiClass mobile/web/server, OkamaLabs web presence, and early game/product experiments."
+  },
+  {
+    "Owner": "zyntrixsolutions",
+    "Total Repos": 2,
+    "Public": 2,
+    "Private": 0,
+    "Unknown Visibility": 0,
+    "Largest Repo KB": 54389,
+    "Primary Story": "Public OS/platform identity for ZyntrixOS and OkamaOS."
+  }
+]

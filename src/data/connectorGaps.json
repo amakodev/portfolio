@@ -1,0 +1,26 @@
+[
+  {
+    "Owner": "amakodev",
+    "Placeholder": "[Connector-hidden repo 1 — name not returned]",
+    "Why Included": "Count placeholder: user verified 119 amakodev repos; connector emitted 115 unique names in accessible calls",
+    "Action": "Replace with exact repo name when GitHub connector exposes full personal repo list."
+  },
+  {
+    "Owner": "amakodev",
+    "Placeholder": "[Connector-hidden repo 2 — name not returned]",
+    "Why Included": "Count placeholder: user verified 119 amakodev repos; connector emitted 115 unique names in accessible calls",
+    "Action": "Replace with exact repo name when GitHub connector exposes full personal repo list."
+  },
+  {
+    "Owner": "amakodev",
+    "Placeholder": "[Connector-hidden repo 3 — name not returned]",
+    "Why Included": "Count placeholder: user verified 119 amakodev repos; connector emitted 115 unique names in accessible calls",
+    "Action": "Replace with exact repo name when GitHub connector exposes full personal repo list."
+  },
+  {
+    "Owner": "amakodev",
+    "Placeholder": "[Connector-hidden repo 4 — name not returned]",
+    "Why Included": "Count placeholder: user verified 119 amakodev repos; connector emitted 115 unique names in accessible calls",
+    "Action": "Replace with exact repo name when GitHub connector exposes full personal repo list."
+  }
+]
