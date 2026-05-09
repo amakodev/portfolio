@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "extract-data": "node scripts/extract_xlsx.mjs",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "gh-pages -d dist --remote origin --branch main"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",

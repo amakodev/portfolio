@@ -122,7 +122,7 @@ export default function S13CVBuilder() {
               <button onClick={copyRoleSummary} className="btn-primary text-xs py-1.5 px-4">
                 <Copy size={10} /> Copy {activeRole} Summary
               </button>
-              <a href="/portfolio/Adrin_Makombe_CV.pdf" download className="btn-secondary text-xs py-1.5 px-4">
+              <a href="/Adrin_Makombe_CV.pdf" download className="btn-secondary text-xs py-1.5 px-4">
                 <Download size={10} /> Download CV
               </a>
             </div>

@@ -61,10 +61,10 @@ npm run deploy
 
 **GitHub Pages Settings:**
 - Source: Deploy from a branch
-- Branch: `gh-pages` / `(root)`
-- URL: `https://amakodev.github.io/portfolio`
+- Branch: `main` / `(root)` (gh-pages renamed to main)
+- URL: `https://amakodev.github.io`
 
-Note: `npm run deploy` uses `gh-pages` package to push the `dist` folder to the `gh-pages` branch. No billing required.
+Note: `npm run deploy` uses `gh-pages` package to push the `dist` folder to the `main` branch. No billing required.
 
 ## Assets
 
@@ -75,6 +75,6 @@ Note: `npm run deploy` uses `gh-pages` package to push the `dist` folder to the 
 ## Contact
 
 - **Email:** amakodev@gmail.com
-- **Portfolio:** [amakodev.github.io/portfolio](https://amakodev.github.io/portfolio)
+- **Portfolio:** [amakodev.github.io](https://amakodev.github.io)
 - **GitHub:** [github.com/amakodev](https://github.com/amakodev)
 - **LinkedIn:** [linkedin.com/in/amakodevz](https://linkedin.com/in/amakodevz)

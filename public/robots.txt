@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /scripts/
+Disallow: /references/
+Disallow: /*.json
+Disallow: /*.mjs
+
+Sitemap: https://amakodev.github.io/sitemap.xml
+
+# Allow search engines to crawl the portfolio
+Crawl-delay: 1

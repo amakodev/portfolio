@@ -138,7 +138,7 @@ export default function S16FinalPitch() {
             <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-500">
               <span>amakodev@gmail.com</span>
               <span className="hidden sm:block">·</span>
-              <a href="https://amakodev.github.io/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">amakodev.github.io/portfolio</a>
+              <a href="https://amakodev.github.io" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">amakodev.github.io</a>
               <span className="hidden sm:block">·</span>
               <span>+27 79 407 5794</span>
               <span className="hidden sm:block">·</span>

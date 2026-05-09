@@ -4,7 +4,7 @@ import {
   ResponsiveContainer, Legend
 } from 'recharts'
 import { useInView } from '../../hooks/useInView'
-import reposData from '../../data/repos.json'
+import reposData from '../../data/repos_filtered.json'
 import type { Repo } from '../../types'
 
 const repos = reposData as Repo[]

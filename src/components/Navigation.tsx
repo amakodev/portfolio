@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
-const NAV_LINKS = [
-  { href: '#recruiter-view', label: '60-Sec View' },
-  { href: '#top-evidence', label: 'Top Projects' },
-  { href: '#gallery', label: 'Gallery' },
-  { href: '#ecosystem', label: 'Ecosystem' },
-  { href: '#explorer', label: 'Repos' },
-  { href: '#cv-builder', label: 'CV Tools' },
-  { href: '#final-pitch', label: 'Pitch' },
+const NAV_ITEMS = [
+  { label: 'Hero', href: '#hero' },
+  { label: 'Evidence', href: '#top-evidence' },
+  { label: 'Gallery', href: '#gallery' },
+  { label: 'Themes', href: '#themes' },
+  { label: 'Ecosystem', href: '#ecosystem' },
+  { label: 'Dashboard', href: '#dashboard' },
+  { label: 'Explorer', href: '#explorer' },
+  { label: 'CV Builder', href: '#cv-builder' },
+  { label: 'FAQ', href: '#faq' },
+  { label: 'Contact', href: '#final-pitch' },
+  { label: 'About', href: '#personal-gallery' },
+  { label: 'Pitch', href: '#pitch' },
 ]
 
 export default function Navigation() {
@@ -50,7 +55,7 @@ export default function Navigation() {
           </button>
 
           <div className="hidden md:flex items-center gap-1">
-            {NAV_LINKS.map(l => (
+            {NAV_ITEMS.map(l => (
               <button
                 key={l.href}
                 onClick={() => handleNav(l.href)}
@@ -93,7 +98,7 @@ export default function Navigation() {
 
         {menuOpen && (
           <div className="md:hidden border-t border-white/10 bg-[#050810]/95 backdrop-blur-xl">
-            {NAV_LINKS.map(l => (
+            {NAV_ITEMS.map(l => (
               <button
                 key={l.href}
                 onClick={() => handleNav(l.href)}

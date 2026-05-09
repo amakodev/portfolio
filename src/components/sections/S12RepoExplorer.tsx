@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import { Search, Filter, X, ExternalLink, Lock, Star, ChevronDown } from 'lucide-react'
 import { useInView } from '../../hooks/useInView'
-import reposData from '../../data/repos.json'
+import reposData from '../../data/repos_filtered.json'
 import type { Repo } from '../../types'
 import Badge, { maturityVariant, visibilityVariant } from '../ui/Badge'
 
